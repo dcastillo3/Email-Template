@@ -1,3 +1,5 @@
-#Basic Email Template
+# Basic Email Template
 
-## Using Redshift, Haskell, VueJS and mySQL
+## Using Redshift, Haskell, VueJS and mySQL (Joke)
+
+## Using HTML and CSS
