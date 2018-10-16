@@ -1,0 +1,197 @@
+/* #region --------- Fonts --------- */
+
+
+
+/* #endregion ------ Fonts --------- */
+@import url('https://fonts.googleapis.com/css?family=Barlow');
+
+/* #region --------- Global --------- */
+body {
+    font-size: 13px;
+    color: #000;
+    margin: 0;
+    font-family: 'Barlow', sans-serif;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.element-center {
+    margin: 0 auto;
+}
+
+.email-template {
+    max-width: 700px;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.layer-one {
+    background-color: #631b26;
+    color: #f7f7f7;
+}
+
+.layer-two {
+    background-color: #221f2d;
+    color: white;
+}
+
+.layer-three {
+    background-color: #674d65;
+    color: white;
+}
+
+.light-padding {
+    padding: 10px;
+}
+
+.medium-padding {
+    padding: 30px 40px;
+}
+
+.button-red {
+    background: #bd3146;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.big-space {
+    margin: 40px 0;
+}
+
+.medium-space {
+    margin: 20px 0;
+}
+
+.small-space {
+    margin: 10px 0;
+}
+
+.mini-space {
+    margin: 5px 0;
+}
+
+/* #endregion ------ Global --------- */
+
+
+/* #region --------- Titles --------- */
+.title {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+
+.subtitle {
+    font-size: 16px;
+}
+
+.article-title {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+/* #endregion ------ Titles --------- */
+
+
+/* #region --------- Header --------- */
+.email-template-header-title {
+     background: url('https://ci6.googleusercontent.com/proxy/0TF5m5P1dUnGEoWsoZeJ7_3XqcoWABAaBeCa7Avx3FdGS318Yc8ChGDawsgPgxzK-JD5fLOE1JxTomJtgdL4jBWN9NAMFZp6pbt360uAT6VM2XWonwmOjSM1vq81sQQJZQ=s0-d-e1-ft#https://d1pgqke3goo8l6.cloudfront.net/ZEMITzEYS2m3RExLC7F5_Ladders_Logo.png');
+     background-repeat: no-repeat;
+     background-size: 80%;
+     width: 236px;
+     height: 36px;
+     background-position: center;
+     background-color: white;
+}
+
+.fb-icon {
+    background: url('https://ci6.googleusercontent.com/proxy/oFHIzu4Bf7f35ixnM7F7lH8HPwDE7o-ZeM3FsacZm6V9SAoERT45hi-KG6CdSjXtkFUrOZve9c6dSwXFjByDWD2uxnYwfpeHCvhj6nbb6dXbr9Vg7VQMT9SuSvc=s0-d-e1-ft#https://d1pgqke3goo8l6.cloudfront.net/e3GixvbNTcelRs7UeoIi_FB_Like.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+}
+
+.social-text {
+    font-size: 12px;
+}
+
+
+/* #endregion ------ Header --------- */
+
+
+/* #region --------- Body --------- */
+
+
+.email-template-advertisement {
+    background: url(https://ci5.googleusercontent.com/proxy/xLvskclJPaaKf4w38wM1-pCmLdTpXkUHQdre5gMqWQh2NoBC_PBSJYp7JJxGoXtF-OXOTuB-xNO_syaPmyC_VdzV_FXb-_W7WnYKjcEvqh76H0yW0V22_VwApvarEOeWhxm0L9QS6eKeAf7QEPvI7zrO1HS410mxlIppALDbFCW1tWLDVUGNiPH29CAMe72z_tZg0yoCQDyoAg=s0-d-e1-ft#http://li.theladders.com/imp?s=257369&layout=marquee&li=%7BLIST_ID%7D&e=jcaron27@gmail.com&p=log_542f0f862c8fb86f31418876f32ddf04-3);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 181px;
+    border: 2px dashed #616160;
+    background-position: center;
+    box-sizing: border-box;
+}
+
+.email-template-image {
+    background: url(https://ci6.googleusercontent.com/proxy/tDWFD7LpFF5NsO_vmwRFDZ1UpboHVke-KC9Po2hYgPpk3fQszGVP15xOHQN6PeLNRqXjmUkmRg52Gn9VDFvbl6W6IRfoU5AOOK1302QdmAmp1LGwOoRKODd3zyprXqU1vADCObwhNpowJh8L=s0-d-e1-ft#https://www.theladders.com/wp-content/uploads/Interview_Questions_You_Need-600x338.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 395px;
+}
+ 
+.email-template-promo {
+    padding: 40px 60px;
+}
+
+.email-template-promo-button {
+    color: #fff;
+    padding: 10px 20px;
+    width: 150px;
+}
+
+.email-template-promo-item-left-icon {
+    background: url(https://ci5.googleusercontent.com/proxy/UbDOkzmWeBUr1_q4k70WxO29cfBq0fQDDUpcBbrYgR1vK1Xe32FRB3WzsY2QFjNOEnvrAu21XRdYapSpxt2ErZgGvQpAC5N8EZTDGspTaSUY1Nr44qFXHydnYkUBFLcYSs7DI945yqgkvkxpaw=s0-d-e1-ft#https://d1pgqke3goo8l6.cloudfront.net/TyLWPxAlQ26WXh9kyezp_Building_Icon_Light_Gray.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    background-position: center;
+}
+
+
+/* #endregion ------ Body --------- */
+
+
+/* #region --------- Footer --------- */
+.email-template-footer-connect {
+    padding: 40px 80px;
+    color: #fff;
+}
+
+.email-teamplte-footer-end-menu {
+    justify-content: flex-start;
+}
+
+.email-template-footer-end {
+    font-size: 11px;
+}
+
+
+/* #endregion ------ Footer --------- */
